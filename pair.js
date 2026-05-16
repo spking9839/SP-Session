@@ -31,7 +31,7 @@ async function generateShortSession(credsPath) {
         // Generate session ID with prefix
         const y = new Date().getFullYear();
         const r = Math.random().toString(36).substring(2, 6).toUpperCase();
-        const sessionId = `SP~`;
+        const sessionId = `SP-MD~`;
         
         // Return both session ID and encoded data
         return {
