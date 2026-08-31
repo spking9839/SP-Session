@@ -31,7 +31,7 @@ async function generateShortSession(credsPath) {
         // Generate session ID with prefix
         const y = new Date().getFullYear();
         const r = Math.random().toString(36).substring(2, 6).toUpperCase();
-        const sessionId = `SP-MD~`;
+        const sessionId = `SR-BROTHER~`;
         
         // Return both session ID and encoded data
         return {
@@ -157,8 +157,8 @@ await sock.sendMessage(
       forwardingScore: 999,
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
-        newsletterJid: "120363348739987203@newsletter",
-        newsletterName: "❀༒★[ᴀʀꜱʟᴀɴ-ᴍᴅ]★༒❀",
+        newsletterJid: "12036334873998456@newsletter",
+        newsletterName: "❀༒★[SP]★༒❀",
         serverMessageId: 143
       }
     }
@@ -240,4 +240,4 @@ process.on("unhandledRejection", (err) => {
 
 export default router;
 
-//coded by ArslanMD Official 🇵🇰 
+//coded by SRBROTHERS Official 🇵🇰 
